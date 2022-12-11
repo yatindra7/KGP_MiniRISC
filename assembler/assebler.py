@@ -6,6 +6,7 @@ REGDICT = {}
 INSTRUCTION_DICT = {}
 OUTPUT_FILE = open("output", "w")
 
+#function for number rep
 def two_comp(num,nbits):
     '''
     gives nbit long two complement representation of number
